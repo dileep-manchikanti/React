@@ -1,0 +1,18 @@
+/* span{
+    color:blue;
+} */
+#selected{
+    color:maroon;
+    font-weight:bold;
+}
+.comments{
+    color:blue;
+    margin-left: 100px;
+    float:right;
+}
+#card{
+    float:left;
+}
+span{
+    color:green;
+}
