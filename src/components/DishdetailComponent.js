@@ -28,8 +28,9 @@ class Dish extends Component{
         const comments = comm.map((comment) => {
             return (
             <div key={Comment.id}>
-              <span>{comment.comment}</span><br></br>
+             <span>{comment.id+1}</span><span>) {comment.comment}</span><br></br>
               <span>{comment.author}, {comment.date}</span>
+              <br></br>
             </div>
           );
       });
