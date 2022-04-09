@@ -6,13 +6,10 @@ import Footer from './FooterComponent';
 import Home from './HomeComponent';
 import Contact from './contactComponent';
 import About from './aboutUs';
-import {fetch} from 'cross-fetch';
 import { TransitionGroup, CSSTransition } from 'react-transition-group';
 import { Switch,Route,Redirect,withRouter } from 'react-router-dom';
 // import {Reducer} from '.../redux/reducer';
 import { connect } from 'react-redux';
-
-
 const mapStateToProps = state => {
   return {
     dishes: state.dishes,
